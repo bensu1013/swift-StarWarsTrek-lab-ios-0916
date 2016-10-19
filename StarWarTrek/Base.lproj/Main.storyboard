@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0Bu-xH-iXv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0Bu-xH-iXv">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -72,8 +73,8 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="stv-0v-XyE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="2RZ-gg-Nzf"/>
-                            <constraint firstItem="ILY-B6-xge" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.45" id="786-4g-ZF1"/>
+                            <constraint firstItem="stv-0v-XyE" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="2RZ-gg-Nzf"/>
+                            <constraint firstItem="ILY-B6-xge" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.4" id="786-4g-ZF1"/>
                             <constraint firstItem="Ga0-9D-ysg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7jD-c1-5s2"/>
                             <constraint firstItem="IAR-2T-yfr" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="8a6-Km-J1P"/>
                             <constraint firstItem="0dz-hW-mko" firstAttribute="top" secondItem="Ga0-9D-ysg" secondAttribute="bottom" id="AhB-t8-J7D"/>
@@ -133,9 +134,9 @@
                             <constraint firstItem="tj8-ul-j1s" firstAttribute="height" secondItem="hQg-hw-JyU" secondAttribute="height" multiplier="0.25" id="OAI-DB-PIR"/>
                             <constraint firstItem="9XK-AO-Tao" firstAttribute="centerY" secondItem="hQg-hw-JyU" secondAttribute="centerY" multiplier="0.5" id="OqC-Cy-oQk"/>
                             <constraint firstItem="9XK-AO-Tao" firstAttribute="centerX" secondItem="hQg-hw-JyU" secondAttribute="centerX" id="XR1-Vq-53b"/>
-                            <constraint firstItem="tj8-ul-j1s" firstAttribute="width" secondItem="hQg-hw-JyU" secondAttribute="width" multiplier="0.25" id="Y4I-2i-zUe"/>
+                            <constraint firstItem="tj8-ul-j1s" firstAttribute="width" secondItem="hQg-hw-JyU" secondAttribute="height" multiplier="0.25" id="Y4I-2i-zUe"/>
                             <constraint firstItem="tj8-ul-j1s" firstAttribute="centerX" secondItem="hQg-hw-JyU" secondAttribute="centerX" id="aCq-La-jSk"/>
-                            <constraint firstItem="9XK-AO-Tao" firstAttribute="width" secondItem="hQg-hw-JyU" secondAttribute="width" multiplier="0.25" id="n0c-Ju-9Sy"/>
+                            <constraint firstItem="9XK-AO-Tao" firstAttribute="width" secondItem="hQg-hw-JyU" secondAttribute="height" multiplier="0.25" id="n0c-Ju-9Sy"/>
                         </constraints>
                     </view>
                     <connections>
