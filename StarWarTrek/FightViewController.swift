@@ -49,12 +49,18 @@ class FightViewController: UIViewController {
        
         view.center = sender.location(in: self.view)
         
+        let otherView = view == starTrek ? starWars : starTrek 
+        
         if starTrek.frame.contains(starWars.frame) {
             self.view.backgroundColor = UIColor.gray
         }
         
+        if view.frame.intersects(otherView!.frame) {
+            self.view.backgroundColor = UIColor.gray
+        }
+        
     }
-    
+
 
 }
 
